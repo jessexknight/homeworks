@@ -58,7 +58,7 @@
 <!-- /Service -->
 <!-- Foot -->
 <div id='foot-div'>
-  <script>$(function(){$('#foot-div').load('foot.html')});</script>
+  <script>$(function(){$('#foot-div').load('foot.php')});</script>
 </div>
 <!-- /Foot -->
 <!-- Testimonials Scripts -->

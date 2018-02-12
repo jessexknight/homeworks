@@ -83,12 +83,10 @@ var pages = ['Home','About','Portfolio','Testimonials','Links','Contact'];
 var link;
 nav = document.getElementById('nav-list')
 for (p in pages){
-  if (['Portfolio','Testimonials'].includes(pages[p])) {
-    link = linkify(pages[p],'.php')
-  } else if (pages[p] === 'Home') {
+  if (pages[p] === 'Home') {
     link = linkify('index','.html')
   } else {
-    link = linkify(pages[p],'.html')
+    link = linkify(pages[p],'.php')
   }
   appendNavLink(nav,pages[p],link)
 }

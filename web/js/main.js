@@ -61,34 +61,4 @@
 		type: 'image'
 	});
 
-	///////////////////////////
-	// Owl Carousel
-	// $('.owl-carousel').owlCarousel({
-	// 	items:1,
-  //   singleItem: true,
-	// 	loop:true,
-	// 	margin:15,
-	// 	nav: true,
-	// 	navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-	// 	dots: true,
-	// 	autoplay : false,
-	// 	animateOut: 'fadeOut',
-	// });
-
-	// $('#testimonial-slider').owlCarousel({
-	// 	loop:true,
-	// 	margin:15,
-	// 	dots : true,
-	// 	nav: false,
-	// 	autoplay : false,
-	// 	responsive:{
-	// 		0: {
-	// 			items:1
-	// 		},
-	// 		992:{
-	// 			items:2
-	// 		}
-	// 	}
-	// });
-
 })(jQuery);
