@@ -21,7 +21,30 @@
     <!--  Main navigation  -->
     <ul id="nav-list" class="main-nav nav navbar-nav navbar-right">
       <!-- JavaScript Generated Menu -->
-    </ul>
+      <li id="nav-Home">
+        <a href="index.php">Home</a>
+      </li>
+      <li id="nav-About">
+        <a href="about.php">About</a>
+      </li>
+      <li id="nav-Portfolio" class="has-dropdown">
+        <a href="portfolio.php">Portfolio</a>
+      <ul class="dropdown">
+        <li id="nav-Bathrooms" class="open-drop">
+          <a href="portfolio.php#bathrooms">Bathrooms</a>
+        </li>
+        <li id="nav-Living Rooms" class="open-drop">
+          <a href="portfolio.php#living-rooms">Living Rooms</a>
+        </li></ul></li>
+      <li id="nav-Testimonials">
+        <a href="testimonials.php">Testimonials</a>
+      </li>
+      <li id="nav-Links">
+        <a href="links.php">Links</a>
+      </li>
+      <li id="nav-Contact">
+        <a href="contact.php">Contact</a>
+      </li></ul>
     <!-- /Main navigation -->
   </div>
 </nav>
@@ -78,23 +101,23 @@ function appendNavSubLink(parent,title,href) {
   t.innerHTML = template;
   parent.appendChild(t.content);
 }
-// build the main nav bar
-var pages = ['Home','About','Portfolio','Testimonials','Links','Contact'];
-var link;
-nav = document.getElementById('nav-list')
-for (p in pages){
-  if (pages[p] === 'Home') {
-    link = linkify('index','.php')
-  } else {
-    link = linkify(pages[p],'.php')
-  }
-  appendNavLink(nav,pages[p],link)
-}
-// build the portfolio nav links
-var imgs = <?php echo $imgs; ?>;
-var portfolio = document.getElementById('nav-Portfolio')
-for (key in imgs){
-  appendNavSubLink(portfolio,key,'portfolio.php#'+linkify(key))
-}
+// // build the main nav bar
+// var pages = ['Home','About','Portfolio','Testimonials','Links','Contact'];
+// var link;
+// nav = document.getElementById('nav-list')
+// for (p in pages){
+//   if (pages[p] === 'Home') {
+//     link = linkify('index','.php')
+//   } else {
+//     link = linkify(pages[p],'.php')
+//   }
+//   appendNavLink(nav,pages[p],link)
+// }
+// // build the portfolio nav links
+// var imgs = <?php echo $imgs; ?>;
+// var portfolio = document.getElementById('nav-Portfolio')
+// for (key in imgs){
+//   appendNavSubLink(portfolio,key,'portfolio.php#'+linkify(key))
+// }
 </script>
 <!-- /Portfolio Scripts -->
