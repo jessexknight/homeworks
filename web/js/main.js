@@ -41,6 +41,7 @@
 	$('.has-dropdown a').on('click', function() {
 		$(this).parent().toggleClass('open-drop');
 	});
+  // $( '#nav li:has(ul)' ).doubleTapToGo();
 
 	///////////////////////////
 	// On Scroll
