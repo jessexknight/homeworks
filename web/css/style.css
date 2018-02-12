@@ -303,12 +303,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     right: 0;
     padding: 0px 0px;
     background-color: #FFF !important;
-    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #EEE;
 }
 
 #nav.nav-transparent {
     background: transparent;
 }
+
 
 /* -- default nav -- */
 
@@ -326,16 +327,16 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         padding: 15px 0px;
     }
     #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
-        color: #10161A;
+        color: #fff;
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #A22E21;
+        color: #6195FF;
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #A22E21;
+        background-color: #6195FF;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -364,7 +365,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #A22E21;
+        background-color: #6195FF;
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -409,6 +410,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
 }
 
+
 /* -- mobile nav -- */
 
 @media only screen and (max-width: 767px) {
@@ -451,10 +453,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transition: 0.2s all;
     }
     .main-nav>li.active {
-        border-left: 6px solid #A22E21;
+        border-left: 6px solid #6195FF;
     }
     .main-nav li a:hover, .main-nav li a:focus {
-        background-color: #A22E21;
+        background-color: #6195FF;
         color: #FFF;
         opacity: 1;
     }
@@ -489,6 +491,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transition: 0.2s all;
     }
 }
+
 
 /* -- nav btn collapse -- */
 
