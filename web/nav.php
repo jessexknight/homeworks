@@ -84,7 +84,7 @@ var link;
 nav = document.getElementById('nav-list')
 for (p in pages){
   if (pages[p] === 'Home') {
-    link = linkify('index','.html')
+    link = linkify('index','.php')
   } else {
     link = linkify(pages[p],'.php')
   }
