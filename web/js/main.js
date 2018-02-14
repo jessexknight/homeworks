@@ -38,10 +38,12 @@
 
 	///////////////////////////
 	// Mobile dropdown
-	$('.has-dropdown a').on('click', function() {
+  $('.has-dropdown').children('a').on('click', function(e) {
 		$(this).parent().toggleClass('open-drop');
+    if ($(this).parent().hasClass('open-drop')) {
+      e.preventDefault();
+    };
 	});
-  // $( '#nav li:has(ul)' ).doubleTapToGo();
 
 	///////////////////////////
 	// On Scroll
