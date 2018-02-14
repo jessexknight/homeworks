@@ -5,7 +5,7 @@ Author: yaminncco
 Colors:
 	Body 		  : #868F9B
 	Headers 	: #10161A
-	Primary 	: #A22E21
+	Primary 	: #970E00
 	Dark      : #FCFCFF
 	Grey 		  : #F4F4F4 #FAFAFA #CCC
 
@@ -73,7 +73,7 @@ h5 {
 }
 
 a {
-    color: #A22E21;
+    color: #970E00;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -83,11 +83,11 @@ a:hover, a:focus {
     text-decoration: none;
     outline: none;
     opacity: 0.8;
-    color: #A22E21;
+    color: #970E00;
 }
 
 .main-color {
-    color: #A22E21;
+    color: #970E00;
 }
 
 .white-text {
@@ -95,12 +95,12 @@ a:hover, a:focus {
 }
 
 ::-moz-selection {
-    background-color: #A22E21;
+    background-color: #970E00;
     color: #FFF;
 }
 
 ::selection {
-    background-color: #A22E21;
+    background-color: #970E00;
     color: #FFF;
 }
 
@@ -178,7 +178,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #A22E21;
+  	background-color: #970E00;
     margin-top: 20px;
 }
 
@@ -208,7 +208,7 @@ textarea {
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
-    border-color: #A22E21;
+    border-color: #970E00;
     opacity: 1;
 }
 
@@ -225,7 +225,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .main-btn {
-    background: #A22E21;
+    background: #970E00;
     color: #FFF;
 }
 
@@ -236,8 +236,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .outline-btn {
     background: transparent;
-    color: #A22E21 !important;
-    border-color: #A22E21;
+    color: #970E00 !important;
+    border-color: #970E00;
 }
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
@@ -330,12 +330,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #A22E21;
+        color: #970E00;
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #A22E21;
+        background-color: #970E00;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -364,7 +364,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #A22E21;
+        background-color: #970E00;
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -451,10 +451,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transition: 0.2s all;
     }
     .main-nav>li.active {
-        border-left: 6px solid #A22E21;
+        border-left: 6px solid #970E00;
     }
     .main-nav li a:hover, .main-nav li a:focus {
-        background-color: #A22E21;
+        background-color: #970E00;
         color: #FFF;
         opacity: 1;
     }
@@ -592,7 +592,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .panel i {
     text-align: center;
     font-size: 36px;
-    color: #A22E21;
+    color: #970E00;
     margin-bottom: 20px;
 }
 
@@ -679,7 +679,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     -ms-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
-    color: #A22E21;
+    color: #970E00;
     margin-bottom: 5px;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
@@ -708,7 +708,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: #A22E21;
+    background-color: #970E00;
     color: #FFF;
     line-height: 50px;
     text-align: center;
@@ -746,12 +746,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .testimonial>.author,
 .testimonial>.location{
     font-style: italic;
-    color: #A22E21;
+    color: #970E00;
 }
 
 .testimonial>.location:before {
     content: "— ";
-    color: #A22E21;
+    color: #970E00;
 }
 
 /*------------------------------------*\
@@ -765,7 +765,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .contact i {
     font-size: 36px;
-    color: #A22E21;
+    color: #970E00;
     margin-bottom: 20px;
 }
 
@@ -821,7 +821,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  background-color: #A22E21;
+  background-color: #970E00;
   color:#FFF;
 }
 
@@ -922,10 +922,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #A22E21;
+    background: #970E00;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-	  background: #A22E21;
+	  background: #970E00;
 }
 
 /* -- nav -- */
@@ -946,7 +946,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    background: #A22E21;
+    background: #970E00;
     color: #FFF;
   	padding: 0px;
   	width: 50px;
@@ -966,7 +966,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .owl-theme .owl-nav [class*='owl-']:hover {
     opacity: 0.8;
-    background: #A22E21;
+    background: #970E00;
 }
 
 /*------------------------------------*\
@@ -982,7 +982,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: #A22E21;
+  	background: #970E00;
   	border-radius:3px;
   	color: #FFF;
   	z-index: 9999;
@@ -1024,7 +1024,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 .preloader span {
     display: inline-block;
-    background-color: #A22E21;
+    background-color: #970E00;
     width: 25px;
     height: 25px;
     -webkit-animation: 1s preload ease-in-out infinite;
