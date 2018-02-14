@@ -26,7 +26,6 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <!-- /Head -->
 <body>
@@ -38,7 +37,7 @@
       <div class="navbar-header">
         <!-- Logo -->
         <div class="navbar-brand">
-          <a href="index.html">
+          <a href="index.php">
             <span class="logo">HomeWorks</span>
             <span class="logo-alt">HomeWorks</span>
             <!-- <img class="logo" src="img/logo.png" alt="HomeWorks">
@@ -63,13 +62,15 @@
         </li>
         <li id="nav-Portfolio" class="has-dropdown">
           <a href="portfolio.php">Portfolio</a>
-        <ul class="dropdown">
-          <li id="nav-Bathrooms" class="open-drop">
-            <a href="portfolio.php#bathrooms">Bathrooms</a>
-          </li>
-          <li id="nav-Living Rooms" class="open-drop">
-            <a href="portfolio.php#living-rooms">Living Rooms</a>
-          </li></ul></li>
+          <ul class="dropdown">
+            <li id="nav-Bathrooms" class="open-drop">
+              <a href="portfolio.php#bathrooms">Bathrooms</a>
+            </li>
+            <li id="nav-Living Rooms" class="open-drop">
+              <a href="portfolio.php#living-rooms">Living Rooms</a>
+            </li>
+          </ul>
+        </li>
         <li id="nav-Testimonials">
           <a href="testimonials.php">Testimonials</a>
         </li>
