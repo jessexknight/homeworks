@@ -1,5 +1,5 @@
 <?php
-$root = "portfolio";
+$root = "img/portfolio";
 $iter = new RecursiveIteratorIterator(
   new RecursiveDirectoryIterator($root, RecursiveDirectoryIterator::SKIP_DOTS),
   RecursiveIteratorIterator::SELF_FIRST,

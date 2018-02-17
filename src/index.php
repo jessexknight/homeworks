@@ -38,8 +38,10 @@
         <!-- Logo -->
         <div class="navbar-brand">
           <a href="index.php">
-            <img class="logo" src="img/logo-top.png" alt="HomeWorks">
-            <img class="logo-alt" src="img/logo-top.png" alt="HomeWorks">
+            <span class="logo">HomeWorks</span>
+            <span class="logo-alt">HomeWorks</span>
+            <!-- <img class="logo" src="img/logo.png" alt="HomeWorks">
+            <img class="logo-alt" src="img/logo-alt.png" alt="HomeWorks"> -->
           </a>
         </div>
         <!-- /Logo -->
@@ -136,28 +138,21 @@
         <div class="col-md-12">
           <!-- footer logo -->
           <div class="footer-logo">
-            <a href="index.php">
-              <!-- <h2 class="white-text">HomeWorks</h2> -->
-              <img src='img/logo.png'></img>
-            </a>
+            <a href="index.html"><h2 class="white-text">HomeWorks</h2></a>
           </div>
           <!-- /footer logo -->
           <!-- footer follow -->
-          <!-- <ul class="footer-follow"> -->
+          <ul class="footer-follow">
             <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
             <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
             <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
-            <!-- <li><a href="https://homestars.com/companies/2776847-homeworks"><i class="fa fa-home"></i></a></li> -->
-            <!-- <li><a href="https://www.linkedin.com/in/wendell-sumner-2875a817/"><i class="fa fa-linkedin"></i></a></li> -->
-          <!-- </ul> -->
+            <li><a href="https://homestars.com/companies/2776847-homeworks"><i class="fa fa-home"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/wendell-sumner-2875a817/"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
           <!-- /footer follow -->
           <!-- footer copyright -->
           <div class="footer-copyright">
-            <p>Copyright © 2018. All Rights Reserved. Designed by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
-              &
-              <a href="https://github.com/jessexknight/" target="_blank">JK</a>.
-            </p>
+            <p>Copyright © 2018. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
           </div>
           <!-- /footer copyright -->
         </div>

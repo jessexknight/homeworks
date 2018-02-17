@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <link rel="icon" type="image/png" href="favicon.png"></link>
-  <title>HomeWorks | Home</title>
+  <title>HomeWorks | About</title>
   <!-- Google font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
   <!-- Bootstrap -->
@@ -38,8 +38,10 @@
         <!-- Logo -->
         <div class="navbar-brand">
           <a href="index.php">
-            <img class="logo" src="img/logo-top.png" alt="HomeWorks">
-            <img class="logo-alt" src="img/logo-top.png" alt="HomeWorks">
+            <span class="logo">HomeWorks</span>
+            <span class="logo-alt">HomeWorks</span>
+            <!-- <img class="logo" src="img/logo.png" alt="HomeWorks">
+            <img class="logo-alt" src="img/logo-alt.png" alt="HomeWorks"> -->
           </a>
         </div>
         <!-- /Logo -->
@@ -83,47 +85,58 @@
   </nav>
 </div>
 <!-- /Nav -->
-<!-- Header -->
-<div id="home" class="section md-padding">
+<!-- About -->
+<div id="about" class="section md-padding">
   <!-- Container -->
   <div class="container">
     <!-- Row -->
     <div class="row">
       <!-- Section header -->
       <div class="section-header text-center">
-        <h2 class="title">HomeWorks</h2>
+        <h2 class="title">About Us</h2>
       </div>
       <!-- /Section header -->
       <!-- about -->
       <div class="col-md-12">
         <div class="panel">
-          <!-- <i class="fa fa-cogs"></i> -->
-          <h3>Mission Statement</h3>
-          <br>
-          <p class="text-center">
-          To help our clients organize, plan, construct and complete any and all improvement projects within their home.
+          <!-- <h3></h3> -->
+          <p>
+            HomeWorks provides top quality home improvement & custom renovations to the residential market within the Durham region.
+          </p>
+          <div class='text-center'><i class="fa fa-wrench"></i></div>
+          <p>
+            Our objective is to supply exceptional home improvements, done in a professional,
+            timely & clean manner while maintaining a reputation of excellence, value & trust.
+            <br><br>
+            Our services include bathrooms, kitchens, basements, doors, trim work, decks, patios & walkways.
+            All work is fully guaranteed & we are bonded & insured.
+            We only work with licensed & insured trades people & do all work according to current code.
+            A properly completed home reno will add value to your home.
+          </p>
+          <div class='text-center'><i class="fa fa-lightbulb-o"></i></div>
+          <p>
+            HomeWorks' ongoing mission of providing 100% customer satisfaction sees each contract as an agreement between partners
+            - an agreement that we take very seriously.
           <br><br>
-          We will accomplish this through professional, courteous and exceptional service.
-          <br><br>
-          Our continued goal is to provide top quality workmanship, experienced, insured and licensed professionals who treat your home like their own.
+            It starts with a simple goal - help our clients create their dream home.
+            Doing the little things right will make the difference.
+            Polite & courteous, honest & hard working; these are the cornerstones of HomeWorks.
+            We believe in communication, understanding & cleanliness.
+            Our client is our number one priority and responsibility.
+          </p>
+          <div class='text-center'><i class="fa fa-home"></i></div>
+          <p>
+            Let us work with you to make your dream home a reality.
           </p>
         </div>
       </div>
       <!-- /about -->
     </div>
+    <!-- /Row -->
   </div>
-  <!-- /home wrapper -->
+  <!-- /Container -->
 </div>
-<!-- /Header -->
-<!-- Preloader -->
-<!-- <div id="preloader">
-  <div class="preloader">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div> -->
-<!-- /Preloader -->
+<!-- /About -->
 <!-- Foot -->
 <div id='foot-div'>
   <!-- <script>$(function(){$('#foot-div').load('foot.php')});</script> -->
@@ -136,28 +149,21 @@
         <div class="col-md-12">
           <!-- footer logo -->
           <div class="footer-logo">
-            <a href="index.php">
-              <!-- <h2 class="white-text">HomeWorks</h2> -->
-              <img src='img/logo.png'></img>
-            </a>
+            <a href="index.html"><h2 class="white-text">HomeWorks</h2></a>
           </div>
           <!-- /footer logo -->
           <!-- footer follow -->
-          <!-- <ul class="footer-follow"> -->
+          <ul class="footer-follow">
             <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
             <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
             <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
-            <!-- <li><a href="https://homestars.com/companies/2776847-homeworks"><i class="fa fa-home"></i></a></li> -->
-            <!-- <li><a href="https://www.linkedin.com/in/wendell-sumner-2875a817/"><i class="fa fa-linkedin"></i></a></li> -->
-          <!-- </ul> -->
+            <li><a href="https://homestars.com/companies/2776847-homeworks"><i class="fa fa-home"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/wendell-sumner-2875a817/"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
           <!-- /footer follow -->
           <!-- footer copyright -->
           <div class="footer-copyright">
-            <p>Copyright © 2018. All Rights Reserved. Designed by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
-              &
-              <a href="https://github.com/jessexknight/" target="_blank">JK</a>.
-            </p>
+            <p>Copyright © 2018. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
           </div>
           <!-- /footer copyright -->
         </div>
