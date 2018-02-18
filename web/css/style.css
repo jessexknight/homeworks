@@ -672,30 +672,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     transition-delay: 0.1s;
 }
 
-/* .work .work-content span {
-    display: block;
-    text-transform: uppercase;
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-    opacity: 0;
-    color: #9E2D21;
-    margin-bottom: 5px;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}
-
-.work:hover .work-content span {
-    -webkit-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    transform: translateY(0%);
-    opacity: 1;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-} */
-
 .work .work-link {
     text-align: center;
     margin-top: 20px;
@@ -873,41 +849,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		  width:100%;
 	}
 
-  .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
-      width: 100%;
-  }
-  .contact-form .input:nth-child(2) {
-      margin-left: 0px;
-  }
-
-  .reply-form form .input, .reply-form form .input {
-      width: 100%;
-  }
-  .reply-form form .input:nth-child(2) {
-      margin-left: 0px;
-  }
-
-  .blog-author .media .media-left {
-      display: block;
-      padding-right: 0;
-      margin-bottom: 20px;
-  }
-  .blog-author .media {
-      text-align: center;
-  }
-  .blog-author .media .media-heading .author-social {
-      margin-top: 10px;
-      float: none;
-  }
-  .blog-author .media .media-left img {
-      margin: auto;
-  }
-
-  .blog-comments .media .media {
-      margin:0px -15px;
-  }
-}
-
 /*------------------------------------*\
 	Owl theme
 \*------------------------------------*/
@@ -967,37 +908,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .owl-theme .owl-nav [class*='owl-']:hover {
     opacity: 0.8;
     background: #9E2D21;
-}
-
-/*------------------------------------*\
-	Back to top
-\*------------------------------------*/
-
-#back-to-top {
-  	display:none;
-  	position: fixed;
-  	bottom: 20px;
-  	right: 20px;
-  	width: 50px;
-  	height: 50px;
-  	line-height: 50px;
-  	text-align: center;
-  	background: #9E2D21;
-  	border-radius:3px;
-  	color: #FFF;
-  	z-index: 9999;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-  	cursor: pointer;
-}
-
-#back-to-top:after {
-    content: "\f106";
-    font-family: 'FontAwesome';
-}
-
-#back-to-top:hover {
-    opacity: 0.8;
 }
 
 /*------------------------------------*\
