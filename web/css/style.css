@@ -633,10 +633,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     transition-delay: 0.1s;
 }
 
+.work:hover .overlay,
+.work.mobile-click .overlay {
+    opacity: 0.8;
+}
+
 .work:hover .overlay {
     -webkit-transition-delay: 0s;
     transition-delay: 0.1s;
-    opacity: 0.8;
 }
 
 .work .work-content {
@@ -663,11 +667,15 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     transition-delay: 0.1s;
 }
 
-.work:hover .work-content h3 {
+.work:hover .work-content h3,
+.work.mobile-click .work-content h3 {
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
     transform: translateY(0%);
     opacity: 1;
+}
+
+.work:hover .work-content h3 {
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
 }
@@ -690,10 +698,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     text-align: center;
 }
 
+.work:hover .work-link,
+.work.mobile-click .work-link {
+    opacity: 1;
+}
+
 .work:hover .work-link {
     -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s;
-    opacity: 1;
 }
 
 /*------------------------------------*\
@@ -707,8 +719,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .testimonial>p {
-  text-align: justify;
-  text-justify: inter-word;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .testimonial>p:before {
@@ -848,6 +860,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   #numbers [class*='col-xs'] {
 		  width:100%;
 	}
+}
 
 /*------------------------------------*\
 	Owl theme
