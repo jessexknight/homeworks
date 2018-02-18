@@ -12,8 +12,7 @@
   <!-- Bootstrap -->
   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
   <!-- Owl Carousel -->
-  <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
-  <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+  <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
   <!-- Font Awesome Icon -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <!-- Custom stlylesheet -->
