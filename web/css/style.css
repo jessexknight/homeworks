@@ -868,11 +868,25 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* -- dots -- */
 
+.owl-theme .owl-dots {
+    width: 100%;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+}
+
 .owl-theme .owl-dots .owl-dot span {
-    border: none;
-    background: #CCC;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
+    background: none repeat scroll 0 0 #868F9B;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    width: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
@@ -912,10 +926,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .owl-theme .owl-prev {
     left: 0px;
+    text-align: center;
 }
 
 .owl-theme .owl-next {
     right: 0px;
+    text-align: center;
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
