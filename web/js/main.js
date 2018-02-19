@@ -7,24 +7,27 @@
 		$('#nav').toggleClass('open');
 	});
 
-	///////////////////////////
-	// Mobile dropdown click
-  $('.has-dropdown').children('a').on('click', function(e) {
-		$(this).parent().toggleClass('open-drop');
-    if ($(this).parent().hasClass('open-drop') && $(window).width() < 767) {
-      e.preventDefault();
-    };
-	});
-
   ///////////////////////////
-	// Mobile portfolio click
-  $(window).load(function() {
-    $('.work').children('a').on('click', function(e) {
-  		$(this).toggleClass('mobile-click');
-      if ($(this).hasClass('mobile-click') && $(window).width() < 767) {
-        e.preventDefault();
-      };
-  	});
+	// Mobile-friendly double-click events
+  function doubleclick(selector,toggleClass) {
+    $(document).click(function(e) {
+      if ($(e.target).closest(selector).length) {
+        var t = $($(e.target).closest(selector)[0])
+        if (t.hasClass(toggleClass)) {
+          $(selector).removeClass(toggleClass);
+        } else {
+          e.preventDefault();
+          $(selector).removeClass(toggleClass);
+          t.addClass(toggleClass);
+        }
+      } else {
+        $(selector).removeClass(toggleClass);
+      }
+    });
+  }
+  $(window).on('load', function() {
+    doubleclick('.has-dropdown','open-drop');
+    doubleclick('.work','clicked');
   });
 
 	///////////////////////////

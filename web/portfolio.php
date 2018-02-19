@@ -51,6 +51,7 @@
       </li>
       <li id="nav-Portfolio" class="has-dropdown">
         <a href="portfolio.php">Portfolio</a>
+        <!-- <a href="#">Portfolio</a> -->
         <ul class="dropdown">
           <li id="nav-Bathrooms" class="open-drop">
             <a href="portfolio.php#bathrooms">Bathrooms</a>
