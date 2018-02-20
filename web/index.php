@@ -19,6 +19,7 @@
   <link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 <!-- /Head -->
+
 <body>
 <!-- Nav -->
 <nav id="nav" class="navbar nav-transparent">
@@ -71,7 +72,8 @@
   </div>
 </nav>
 <!-- /Nav -->
-<!-- Header -->
+
+<!-- Home -->
 <div id="home" class="section md-padding">
   <!-- Container -->
   <div class="container">
@@ -100,9 +102,9 @@
       <!-- /about -->
     </div>
   </div>
-  <!-- /home wrapper -->
+  <!-- /Container -->
 </div>
-<!-- /Header -->
+<!-- /Home -->
 <!-- Preloader -->
 <!-- <div id="preloader">
   <div class="preloader">
@@ -114,7 +116,6 @@
 <!-- /Preloader -->
 <!-- Foot -->
 <div id='foot-div'>
-  <!-- <script>$(function(){$('#foot-div').load('foot.php')});</script> -->
   <!-- Footer -->
   <footer id="footer" class="sm-padding bg-dark">
     <!-- Container -->
@@ -163,5 +164,6 @@
   <!-- /jQuery Plugins -->
 </div>
 <!-- /Foot -->
+
 </body>
 </html>

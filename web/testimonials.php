@@ -19,8 +19,7 @@
   <link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 <!-- /Head -->
-<body>
-<!-- /Head -->
+
 <body>
 <!-- Nav -->
 <nav id="nav" class="navbar nav-transparent">
@@ -73,6 +72,7 @@
   </div>
 </nav>
 <!-- /Nav -->
+
 <!-- Testimonials -->
 <div id="service" class="section md-padding">
   <!-- Container -->
@@ -126,7 +126,6 @@ for (t in testimonials){
 <!-- /Testimonials Scripts -->
 <!-- Foot -->
 <div id='foot-div'>
-  <!-- <script>$(function(){$('#foot-div').load('foot.php')});</script> -->
   <!-- Footer -->
   <footer id="footer" class="sm-padding bg-dark">
     <!-- Container -->
@@ -175,5 +174,6 @@ for (t in testimonials){
   <!-- /jQuery Plugins -->
 </div>
 <!-- /Foot -->
+
 </body>
 </html>

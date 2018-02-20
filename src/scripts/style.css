@@ -5,7 +5,7 @@ Author: yaminncco
 Colors:
 	Body 		  : #868F9B
 	Headers 	: #10161A
-	Primary 	: #970E00
+	Primary 	: #9E2D21
 	Dark      : #FCFCFF
 	Grey 		  : #F4F4F4 #FAFAFA #CCC
 
@@ -73,7 +73,7 @@ h5 {
 }
 
 a {
-    color: #970E00;
+    color: #9E2D21;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -82,12 +82,11 @@ a {
 a:hover, a:focus {
     text-decoration: none;
     outline: none;
-    opacity: 0.8;
-    color: #970E00;
+    color: #D16054;
 }
 
 .main-color {
-    color: #970E00;
+    color: #9E2D21;
 }
 
 .white-text {
@@ -95,12 +94,12 @@ a:hover, a:focus {
 }
 
 ::-moz-selection {
-    background-color: #970E00;
+    background-color: #9E2D21;
     color: #FFF;
 }
 
 ::selection {
-    background-color: #970E00;
+    background-color: #9E2D21;
     color: #FFF;
 }
 
@@ -178,7 +177,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #970E00;
+  	background-color: #9E2D21;
     margin-top: 20px;
 }
 
@@ -208,40 +207,8 @@ textarea {
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
-    border-color: #970E00;
+    border-color: #9E2D21;
     opacity: 1;
-}
-
-/* --  Buttons  -- */
-
-.main-btn, .white-btn, .outline-btn {
-    display: inline-block;
-    padding: 10px 35px;
-    margin: 3px;
-    border: 2px solid transparent;
-    border-radius: 3px;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-}
-
-.main-btn {
-    background: #970E00;
-    color: #FFF;
-}
-
-.white-btn {
-    background: #FFF;
-    color: #10161A !important;
-}
-
-.outline-btn {
-    background: transparent;
-    color: #970E00 !important;
-    border-color: #970E00;
-}
-
-.main-btn:hover, .white-btn:hover, .outline-btn:hover {
-    opacity: 0.8;
 }
 
 /*------------------------------------*\
@@ -284,6 +251,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 \*------------------------------------*/
 
 #nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     padding: 10px 0px;
     background: #FFF;
     -webkit-transition: 0.2s padding;
@@ -298,9 +268,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 #nav.fixed-nav {
-    position: fixed;
-    left: 0;
-    right: 0;
     padding: 0px 0px;
     background-color: #FFF !important;
     border-bottom: 1px solid #CCC;
@@ -330,12 +297,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #970E00;
+        color: #9E2D21;
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #970E00;
+        background-color: #9E2D21;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -364,7 +331,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #970E00;
+        background-color: #9E2D21;
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -392,14 +359,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     .dropdown li:nth-child(1) a {
         border-top: none;
     }
-    .has-dropdown:hover>.dropdown {
+    .has-dropdown.open-drop>.dropdown {
         opacity: 1;
         visibility: visible;
         -webkit-transform: translateY(0px) translateX(50%);
         -ms-transform: translateY(0px) translateX(50%);
         transform: translateY(0px) translateX(50%);
     }
-    .has-dropdown:hover>a:before {
+    .has-dropdown.open-drop>a:before {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -419,7 +386,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         background: #FFF;
     }
     .main-nav {
-        position: fixed;
+        position: absolute;
         right: 0;
         height: calc(100vh - 80px);
         -webkit-box-shadow: 0px 80px 0px 0px #1C1D21;
@@ -451,10 +418,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transition: 0.2s all;
     }
     .main-nav>li.active {
-        border-left: 6px solid #970E00;
+        border-left: 6px solid #9E2D21;
     }
     .main-nav li a:hover, .main-nav li a:focus {
-        background-color: #970E00;
+        background-color: #9E2D21;
         color: #FFF;
         opacity: 1;
     }
@@ -592,12 +559,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .panel i {
     text-align: center;
     font-size: 36px;
-    color: #970E00;
+    color: #9E2D21;
     margin-bottom: 20px;
-}
-
-.panel:hover:after {
-    width: 100%;
 }
 
 .panel h3 {
@@ -633,7 +596,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     transition-delay: 0.1s;
 }
 
-.work:hover .overlay {
+.work.clicked .overlay {
     -webkit-transition-delay: 0s;
     transition-delay: 0.1s;
     opacity: 0.8;
@@ -663,38 +626,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     transition-delay: 0.1s;
 }
 
-.work:hover .work-content h3 {
+.work.clicked .work-content h3 {
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
     transform: translateY(0%);
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
     opacity: 1;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
 }
-
-/* .work .work-content span {
-    display: block;
-    text-transform: uppercase;
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-    opacity: 0;
-    color: #970E00;
-    margin-bottom: 5px;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}
-
-.work:hover .work-content span {
-    -webkit-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    transform: translateY(0%);
-    opacity: 1;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-} */
 
 .work .work-link {
     text-align: center;
@@ -708,13 +647,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: #970E00;
+    background-color: #9E2D21;
     color: #FFF;
     line-height: 50px;
     text-align: center;
 }
 
-.work:hover .work-link {
+.work.clicked .work-link {
     -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s;
     opacity: 1;
@@ -731,8 +670,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .testimonial>p {
-  text-align: justify;
-  text-justify: inter-word;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .testimonial>p:before {
@@ -746,12 +685,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .testimonial>.author,
 .testimonial>.location{
     font-style: italic;
-    color: #970E00;
+    color: #9E2D21;
 }
 
 .testimonial>.location:before {
     content: "— ";
-    color: #970E00;
+    color: #9E2D21;
 }
 
 /*------------------------------------*\
@@ -765,7 +704,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .contact i {
     font-size: 36px;
-    color: #970E00;
+    color: #9E2D21;
     margin-bottom: 20px;
 }
 
@@ -821,7 +760,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  background-color: #970E00;
+  background-color: #9E2D21;
   color:#FFF;
 }
 
@@ -872,40 +811,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   #numbers [class*='col-xs'] {
 		  width:100%;
 	}
-
-  .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
-      width: 100%;
-  }
-  .contact-form .input:nth-child(2) {
-      margin-left: 0px;
-  }
-
-  .reply-form form .input, .reply-form form .input {
-      width: 100%;
-  }
-  .reply-form form .input:nth-child(2) {
-      margin-left: 0px;
-  }
-
-  .blog-author .media .media-left {
-      display: block;
-      padding-right: 0;
-      margin-bottom: 20px;
-  }
-  .blog-author .media {
-      text-align: center;
-  }
-  .blog-author .media .media-heading .author-social {
-      margin-top: 10px;
-      float: none;
-  }
-  .blog-author .media .media-left img {
-      margin: auto;
-  }
-
-  .blog-comments .media .media {
-      margin:0px -15px;
-  }
 }
 
 /*------------------------------------*\
@@ -914,18 +819,32 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* -- dots -- */
 
+.owl-theme .owl-dots {
+    width: 100%;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+}
+
 .owl-theme .owl-dots .owl-dot span {
-    border: none;
-    background: #CCC;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
+    background: none repeat scroll 0 0 #868F9B;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    width: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #970E00;
+    background: #9E2D21;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-	  background: #970E00;
+	  background: #9E2D21;
 }
 
 /* -- nav -- */
@@ -946,7 +865,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    background: #970E00;
+    background: #9E2D21;
     color: #FFF;
   	padding: 0px;
   	width: 50px;
@@ -958,46 +877,17 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .owl-theme .owl-prev {
     left: 0px;
+    text-align: center;
 }
 
 .owl-theme .owl-next {
     right: 0px;
+    text-align: center;
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
     opacity: 0.8;
-    background: #970E00;
-}
-
-/*------------------------------------*\
-	Back to top
-\*------------------------------------*/
-
-#back-to-top {
-  	display:none;
-  	position: fixed;
-  	bottom: 20px;
-  	right: 20px;
-  	width: 50px;
-  	height: 50px;
-  	line-height: 50px;
-  	text-align: center;
-  	background: #970E00;
-  	border-radius:3px;
-  	color: #FFF;
-  	z-index: 9999;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-  	cursor: pointer;
-}
-
-#back-to-top:after {
-    content: "\f106";
-    font-family: 'FontAwesome';
-}
-
-#back-to-top:hover {
-    opacity: 0.8;
+    background: #9E2D21;
 }
 
 /*------------------------------------*\
@@ -1024,7 +914,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 .preloader span {
     display: inline-block;
-    background-color: #970E00;
+    background-color: #9E2D21;
     width: 25px;
     height: 25px;
     -webkit-animation: 1s preload ease-in-out infinite;
