@@ -89,7 +89,7 @@
         <div class="contact">
           <i class="fa fa-phone"></i>
           <h3>Phone</h3>
-          <p>416-737-0029</p>
+          <a href='tel:+1-416-737-0029'>416-737-0029</a>
         </div>
       </div>
       <!-- /contact -->
@@ -98,7 +98,7 @@
         <div class="contact">
           <i class="fa fa-envelope"></i>
           <h3>Email</h3>
-          <p>ws@homeworks4u.ca</p>
+          <a href='mailto:ws@homeworks4u.ca'>ws@homeworks4u.ca</a>
         </div>
       </div>
       <!-- /contact -->
@@ -107,7 +107,7 @@
         <div class="contact">
           <i class="fa fa-map-marker"></i>
           <h3>Location</h3>
-          <p>Ajax, Ontario</p>
+          <a href='https://www.google.ca/maps/place/Ajax,Ontario/'>Ajax, Ontario</a>
         </div>
       </div>
       <!-- /contact -->
