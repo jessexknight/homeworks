@@ -51,9 +51,6 @@
   <a href="portfolio.php">Portfolio</a>
   <ul class="dropdown">
     <li class="open-drop">
-  <a href="portfolio.php#test">Test</a>
-</li>
-<li class="open-drop">
   <a href="portfolio.php#bathrooms">Bathrooms</a>
 </li>
 <li class="open-drop">
