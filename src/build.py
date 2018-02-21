@@ -86,6 +86,13 @@ def listlen(obj):
   else:
     return 0
 
+def make_filename(name,ext=True):
+  name = name.lower().replace(' ','-')
+  if ext:
+    return name+'.php'
+  else:
+    return name
+
 def make_pagename(name):
   return name.replace('index','home').capitalize()
 
@@ -98,14 +105,41 @@ def get_templates(dirname):
   return T
 
 if __name__ == "__main__":
-  out = os.path.join('..','web')
+  # meta-data
+  out = '../web'
+  portfolio = '../web/portfolio'
+  pagelist = ['index','about','portfolio','testimonials','links','contact']
+  # collecting templates
   pages = get_templates('pages')
-  templates = get_templates('templates')
+  tmp = {'parts': get_templates('templates/parts'),
+         'nav'  : get_templates('templates/nav')}
+  navul  = ''
+  portul = ''
+  # building the nav-bar (portfolio)
+  for (path,dirs,files) in os.walk(portfolio):
+    for name in dirs:
+      sub = {'href' : make_filename('portfolio')+'#'+make_filename(name,False),
+             'title': make_pagename(name)}
+      portul += tmp['nav']['li-li'].get_sub_content(sub)
+  # building the nav-bar (pages)
+  for name in pagelist:
+    sub = {'href' : make_filename(name),
+           'title': make_pagename(name)}
+    if name in ['portfolio']:
+      sub.update({'li-ul':portul})
+      navli = tmp['nav']['li-ul']
+    else:
+      navli = tmp['nav']['li']
+    navul += navli.get_sub_content(sub)
+  tmp['parts']['nav'].set_sub_content({'li':''.join(navul)})
+  # writing pages from parts
   for name, page in pages.iteritems():
     sub = {k:t.get_sub_content({'title':make_pagename(name)})
-      for k,t in templates.iteritems()}
-    with open(os.path.join(out,name+'.php'),'w') as f:
+      for k,t in tmp['parts'].iteritems()}
+    print('Building '+make_filename(name))
+    with open(os.path.join(out,make_filename(name)),'w') as f:
       f.write(page.get_sub_content(sub))
+  # copying scripts
   for (path,dirs,files) in os.walk('scripts'):
     for f in files:
       ftype = os.path.splitext(f)[1][1:]

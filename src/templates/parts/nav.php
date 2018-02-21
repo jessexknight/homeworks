@@ -18,33 +18,34 @@
     </div>
     <!--  Main navigation  -->
     <ul id="nav-list" class="main-nav nav navbar-nav navbar-right">
-      <!-- JavaScript Generated Menu -->
-      <li id="nav-Home">
+      __li__
+      <!-- <li>
         <a href="index.php">Home</a>
       </li>
-      <li id="nav-About">
+      <li>
         <a href="about.php">About</a>
       </li>
-      <li id="nav-Portfolio" class="has-dropdown">
+      <li class="has-dropdown">
         <a href="portfolio.php">Portfolio</a>
         <ul class="dropdown">
-          <li id="nav-Bathrooms" class="open-drop">
+          <li class="open-drop">
             <a href="portfolio.php#bathrooms">Bathrooms</a>
           </li>
-          <li id="nav-Living Rooms" class="open-drop">
+          <li class="open-drop">
             <a href="portfolio.php#living-rooms">Living Rooms</a>
           </li>
         </ul>
       </li>
-      <li id="nav-Testimonials">
+      <li>
         <a href="testimonials.php">Testimonials</a>
       </li>
-      <li id="nav-Links">
+      <li>
         <a href="links.php">Links</a>
       </li>
-      <li id="nav-Contact">
+      <li>
         <a href="contact.php">Contact</a>
-      </li></ul>
+      </li> -->
+    </ul>
     <!-- /Main navigation -->
   </div>
 </nav>
