@@ -8,4 +8,5 @@ python build.py
 cd ~/dev/web/homeworks/main/
 git add .
 git commit -m "${1:-automated-build}"
+git push master
 git push heroku master
