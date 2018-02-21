@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <link rel="icon" type="image/png" href="favicon.png"></link>
+  <link rel="icon" type="image/png" href="img/favicon.png"></link>
   <title>Testimonials | HomeWorks</title>
   <!-- Google font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
@@ -41,33 +41,64 @@
     </div>
     <!--  Main navigation  -->
     <ul id="nav-list" class="main-nav nav navbar-nav navbar-right">
-      <!-- JavaScript Generated Menu -->
-      <li id="nav-Home">
+      <li>
+  <a href="index.php">Home</a>
+</li>
+<li>
+  <a href="about.php">About</a>
+</li>
+<li class="has-dropdown">
+  <a href="portfolio.php">Portfolio</a>
+  <ul class="dropdown">
+    <li class="open-drop">
+  <a href="portfolio.php#test">Test</a>
+</li>
+<li class="open-drop">
+  <a href="portfolio.php#bathrooms">Bathrooms</a>
+</li>
+<li class="open-drop">
+  <a href="portfolio.php#living-rooms">Living rooms</a>
+</li>
+
+  </ul>
+</li>
+<li>
+  <a href="testimonials.php">Testimonials</a>
+</li>
+<li>
+  <a href="links.php">Links</a>
+</li>
+<li>
+  <a href="contact.php">Contact</a>
+</li>
+
+      <!-- <li>
         <a href="index.php">Home</a>
       </li>
-      <li id="nav-About">
+      <li>
         <a href="about.php">About</a>
       </li>
-      <li id="nav-Portfolio" class="has-dropdown">
+      <li class="has-dropdown">
         <a href="portfolio.php">Portfolio</a>
         <ul class="dropdown">
-          <li id="nav-Bathrooms" class="open-drop">
+          <li class="open-drop">
             <a href="portfolio.php#bathrooms">Bathrooms</a>
           </li>
-          <li id="nav-Living Rooms" class="open-drop">
+          <li class="open-drop">
             <a href="portfolio.php#living-rooms">Living Rooms</a>
           </li>
         </ul>
       </li>
-      <li id="nav-Testimonials">
+      <li>
         <a href="testimonials.php">Testimonials</a>
       </li>
-      <li id="nav-Links">
+      <li>
         <a href="links.php">Links</a>
       </li>
-      <li id="nav-Contact">
+      <li>
         <a href="contact.php">Contact</a>
-      </li></ul>
+      </li> -->
+    </ul>
     <!-- /Main navigation -->
   </div>
 </nav>
