@@ -12,12 +12,14 @@ case $key in
     cd $(pwd)/web
     rm -rf portfolio
     gdrive download -r -f 1E15Njd_eV2HS8Uv6pdTiCEJX88TKus7X
-    shift;;
+    shift
+    ;;
     b)
     echo "Building Webpages ..."
     cd $(pwd)/src
     python build.py
-    shift;;
+    shift
+    ;;
     p|--msg)
     echo "Pushing to Heroku ..."
     cd $(pwd)
@@ -25,6 +27,7 @@ case $key in
     git commit -m "${2:-automated-build}"
     git push master
     git push heroku master
-    shift shift;;
+    shift shift
+    ;;
 esac
 done
