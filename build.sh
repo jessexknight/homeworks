@@ -20,11 +20,11 @@ case $key in
     python build.py
     shift
     ;;
-    p|--msg)
+    p)
     echo "Pushing to Heroku ..."
     cd $(pwd)
     git add .
-    git commit -m "${2:-automated-build}"
+    git commit -m "automated-build"
     git push master
     git push heroku master
     shift
