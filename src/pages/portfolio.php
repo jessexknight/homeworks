@@ -103,6 +103,7 @@ function definePortfolio(){
   if (hash.length === 0) { // portfolio overview
     title.innerHTML = 'Portfolio';
     for (key in imgs){
+      console.log(imgs[key])
       addPortfolioGrid(grid,key,imgs[key][0],'portfolio.php#'+linkify(key))
     }
   } else { // portfolio section

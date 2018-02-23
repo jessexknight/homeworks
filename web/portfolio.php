@@ -69,32 +69,6 @@
   <a href="contact.php">Contact</a>
 </li>
 
-      <!-- <li>
-        <a href="index.php">Home</a>
-      </li>
-      <li>
-        <a href="about.php">About</a>
-      </li>
-      <li class="has-dropdown">
-        <a href="portfolio.php">Portfolio</a>
-        <ul class="dropdown">
-          <li class="open-drop">
-            <a href="portfolio.php#bathrooms">Bathrooms</a>
-          </li>
-          <li class="open-drop">
-            <a href="portfolio.php#living-rooms">Living Rooms</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="testimonials.php">Testimonials</a>
-      </li>
-      <li>
-        <a href="links.php">Links</a>
-      </li>
-      <li>
-        <a href="contact.php">Contact</a>
-      </li> -->
     </ul>
     <!-- /Main navigation -->
   </div>
@@ -202,6 +176,7 @@ function definePortfolio(){
   if (hash.length === 0) { // portfolio overview
     title.innerHTML = 'Portfolio';
     for (key in imgs){
+      console.log(imgs[key])
       addPortfolioGrid(grid,key,imgs[key][0],'portfolio.php#'+linkify(key))
     }
   } else { // portfolio section
