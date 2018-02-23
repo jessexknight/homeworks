@@ -23,7 +23,7 @@ case $key in
     echo "Pushing to Heroku ..."
     cd $cwd
     git add .
-    git commit -m "automated-build"
+    git commit -m "automated-build-test"
     git push master
     git push heroku master
     shift
