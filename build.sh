@@ -27,7 +27,7 @@ case $key in
     git commit -m "${2:-automated-build}"
     git push master
     git push heroku master
-    shift shift
+    shift
     ;;
 esac
 done
